@@ -1,11 +1,7 @@
 # AirBnB Clone - The Console
-
-[![CodeStyle](https://github.com/B3zaleel/AirBnB_clone_v3/actions/workflows/codestyle.yml/badge.svg)](https://github.com/B3zaleel/AirBnB_clone_v3/actions/workflows/codestyle.yml)
-
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
 #### Functionalities of this command interpreter:
-
 * Create a new object (ex: a new User or a new Place)
 * Retrieve an object from a file, a database etc...
 * Do operations on objects (count, compute stats, etc...)
@@ -13,7 +9,6 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * Destroy an object
 
 ## Table of Content
-
 * [Environment](#environment)
 * [Installation](#installation)
 * [File Descriptions](#file-descriptions)
@@ -24,18 +19,15 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [License](#license)
 
 ## Environment
-
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
 ## Installation
-
 * Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
 * Access AirBnb directory: `cd AirBnB_clone`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
 ## File Descriptions
-
 [console.py](console.py) - the console contains the entry point of the command interpreter.
 List of commands this console current supports:
 * `EOF` - exits console
@@ -62,8 +54,7 @@ Classes inherited from Base Model:
 * [state.py](/models/state.py)
 * [user.py](/models/user.py)
 
-#### `/models/engine` directory contains File Storage class that handles JASON serialization and deserialization:
-
+#### `/models/engine` directory contains File Storage class that handles JASON serialization and deserialization :
 [file_storage.py](/models/engine/file_storage.py) - serializes instances to a JSON file & deserializes back to instances
 * `def all(self)` - returns the dictionary __objects
 * `def new(self, obj)` - sets in __objects the obj with key <obj class name>.id
@@ -71,7 +62,6 @@ Classes inherited from Base Model:
 * ` def reload(self)` -  deserializes the JSON file to __objects
 
 #### `/tests` directory contains all unit test cases for this project:
-
 [/test_models/test_base_model.py](/tests/test_models/test_base_model.py) - Contains the TestBaseModel and TestBaseModelDocs classes
 TestBaseModelDocs class:
 * `def setUpClass(cls)`- Set up for the doc tests
@@ -138,7 +128,6 @@ TestBaseModel class:
 
 
 ## Examples of use
-
 ```
 vagrantAirBnB_clone$./console.py
 (hbnb) help
@@ -162,16 +151,17 @@ EOF  all  create  destroy  help  quit  show  update
 ```
 
 ## Bugs
-
 No known bugs at this time.
 
 ## Authors
-
-+ Alexa Orrico - [GitHub](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)
-+ Bezaleel Olakunori - [GitHub](https://github.com/B3zaleel) / [Twitter](https://twitter.com/bezxx_chihuahua)
-+ Jennifer Huang - [GitHub](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
++ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)
++ Bezaleel Olakunori - [Github](https://github.com/B3zaleel) / [Twitter](https://twitter.com/bezxx_chihuahua)
++ Thomas Kigarde - [Github](https://github.com/MISTOM) / [Linkedin](https://linkedin.com/in/kigarde-thomas/)
++ David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
++ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
++ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)
 + Joann Vuong
-+ Dismas Kipchumba - [GitHub](https://github.com/dizzysnazzy) / [Twitter](https://twitter.com/dizzy_snazzy)
-## License
 
+Second part of Airbnb: Joann Vuong
+## License
 Public Domain. No copy write protection.
